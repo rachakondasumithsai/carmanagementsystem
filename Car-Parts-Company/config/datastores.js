@@ -51,11 +51,11 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
   adapter: 'sails-mysql',
-  host :'database-1.ch4gyvz5m7yz.us-east-1.rds.amazonaws.com',
-  user:'admin',
-  password:'9542422675',
-  port:'3306',
-  database: 'PROJECT5409'
+  host :'host details',
+  user:'',
+  password:'',
+  port:'port number',
+  database: ''
 
   },
 
