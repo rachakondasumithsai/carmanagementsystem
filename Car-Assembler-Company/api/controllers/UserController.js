@@ -99,7 +99,7 @@ module.exports = {
     //send token in email
     function sendEmail(toEmail, otp){
       var AWS = require('aws-sdk');
-      AWS.config.update({accessKeyId: 'AKIAJD76LSDVPHILXG7Q', secretAccessKey: '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', region: 'us-east-2'});
+      AWS.config.update({accessKeyId: '#####', secretAccessKey: '######', region: '#####'});
 
       var params = {
         Destination: { /* required */
