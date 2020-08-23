@@ -69,7 +69,7 @@ module.exports = async function login(inputs) {
     async function sendEmail(toEmail, otp){
 
       var AWS = require('aws-sdk');
-      AWS.config.update({accessKeyId: 'AKIAJD76LSDVPHILXG7Q', secretAccessKey: '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', region: 'us-east-2'});
+      AWS.config.update({accessKeyId: '#####', secretAccessKey: '#####', region: '#####'});
       var params = {
         Destination: { /* required */
           CcAddresses: [
@@ -97,9 +97,9 @@ module.exports = async function login(inputs) {
             Data: 'One Time Password'
            }
           },
-        Source: 'rachakondasumithsai@gmail.com', /* required */
+        Source: '#####@gmail.com', /* required */
         ReplyToAddresses: [
-           'rachakondasumithsai@gmail.com',
+           '#####@gmail.com',
           /* more items */
         ],
       };
