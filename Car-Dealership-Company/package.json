@@ -10,7 +10,7 @@
     "@sailshq/socket.io-redis": "^5.2.0",
     "grunt": "1.5.2",
     "http": "0.0.1-security",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.20",
     "request": "^2.88.2",
     "sails": "^1.2.4",
     "sails-hook-grunt": "^4.0.0",
